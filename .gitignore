@@ -1,0 +1,11 @@
+.env
+start.bat
+
+__pycache__/
+b
+
+# py build
+dist/**/*
+build/**/*
+
+*.spec
