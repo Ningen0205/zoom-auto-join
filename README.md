@@ -10,8 +10,8 @@ batファイルに以下の情報を入れます
 set ZOOM_MEETING_ID=ミーティングのID(空白がある場合はダブルクォートで囲ってください)
 set ZOOM_MEETING_PASSWORD=ミーティングのパスワード
 
-cd 
-main.exe
+cd %~dp0
+%~dp0main.exe
 ```
 
 batを実行すれば、自動で参加までしてくれます。

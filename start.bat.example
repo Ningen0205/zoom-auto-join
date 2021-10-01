@@ -1,0 +1,5 @@
+set ZOOM_MEETING_ID=XXXXXXXXX
+set ZOOM_MEETING_PASSWORD=XXXXXXXXX
+
+cd %~dp0
+python main.py
